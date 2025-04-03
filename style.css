@@ -1,0 +1,90 @@
+html {
+    background-color: rgb(25, 25, 30);
+    color: rgb(181, 181, 227);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+.center {
+    text-align: center;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.pfp {
+    width: 96px;
+    height: 96px;
+    border-radius: 96px;
+}
+
+.name_pfp {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+}
+
+.name_pfp img {
+    filter: drop-shadow(0px 0px 15px rgba(255, 219, 148, 0.5));
+}
+
+.name_pfp h1 {
+    filter: drop-shadow(0px 0px 15px rgba(181, 181, 227, 0.5));
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.center h1 {
+    font-size: 72px;
+    align-self: center;
+    margin: 0px;
+}
+
+.center p {
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 17px;
+}
+
+.button-row button {
+    padding: 15px;
+    cursor: pointer;
+    background-color: rgb(181, 181, 227);
+    color: rgb(25, 25, 30);
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    transition: 0.1s all;
+}
+
+.button-row button:hover{
+    background-color: rgb(189, 189, 230);
+    transition: 0.1s all;
+}
+
+.button-row button:active{
+    background-color: rgb(170, 170, 207);
+    transition: 0.1s all;
+}
+
+#waves {
+    position: fixed;
+    display: inline;
+    width: 100%;
+    height: 100%;
+    opacity: 0.05;
+    filter: hue-rotate(200deg);
+}
