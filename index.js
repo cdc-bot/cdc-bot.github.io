@@ -12,7 +12,15 @@ async function setup() {
     var div = document.createElement("div");
     div.id = "swelvy";
     div.innerHTML = swelvyHTML;
+    var a = [];
+    for (child of document.body.children){
+        a.push(child);
+        child.remove();
+    }
     document.body.appendChild(div);
+    for (child of a){
+        document.body.appendChild(child);
+    }
 }
 
 setup();
