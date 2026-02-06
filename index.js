@@ -1,5 +1,5 @@
 links = {
-    "add": "https://discord.com/oauth2/authorize?client_id=1104117843076853833",
+    "add": "https://discord.com/oauth2/authorize?client_id=1104117843076853833?scope=bot",
     "docs": "/docs" // this is gonna be a repo with md files
 }
 function link(e) {
