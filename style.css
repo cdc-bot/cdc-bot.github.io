@@ -87,3 +87,30 @@ body {
     height: 100%;
     opacity: 0.1;
 }
+
+@media (max-width:768px) {
+    .name_pfp {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width:545px) {
+    .name_pfp {
+        flex-direction: column;
+        align-items: center;
+    }
+    .name_pfp h1 {
+        font-size:3rem;
+    }
+}
+
+@media (max-width:474px) {
+    #add {
+        font-size:0px;
+    }
+    #add::after {
+        font-size:15px;
+        content:"Add";
+    }
+}
